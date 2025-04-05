@@ -1,0 +1,46 @@
+.stat-card {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 1.5rem;
+    box-shadow: var(--shadow);
+  }
+  
+  .stat-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stat-title {
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin: 0;
+  }
+  
+  .stat-icon {
+    color: var(--text-muted);
+  }
+  
+  .stat-content {
+    margin-top: 0.5rem;
+  }
+  
+  .stat-value {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  
+  .capitalize {
+    text-transform: capitalize;
+  }
+  
+  .stat-description {
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    margin-top: 0.25rem;
+  }
+  
+  

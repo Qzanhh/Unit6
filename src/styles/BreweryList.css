@@ -1,0 +1,195 @@
+.brewery-table-container {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    box-shadow: var(--shadow);
+  }
+  
+  .brewery-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .brewery-table th,
+  .brewery-table td {
+    padding: 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .brewery-table th {
+    background-color: rgba(0, 0, 0, 0.02);
+    font-weight: 600;
+  }
+  
+  .brewery-table tr:last-child td {
+    border-bottom: none;
+  }
+  
+  .brewery-name {
+    font-weight: 500;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 0.25rem 0.5rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .badge-blue {
+    background-color: rgba(59, 130, 246, 0.1);
+    color: #2563eb;
+  }
+  
+  .badge-green {
+    background-color: rgba(16, 185, 129, 0.1);
+    color: #059669;
+  }
+  
+  .badge-purple {
+    background-color: rgba(139, 92, 246, 0.1);
+    color: #7c3aed;
+  }
+  
+  .badge-amber {
+    background-color: rgba(245, 158, 11, 0.1);
+    color: #d97706;
+  }
+  
+  .badge-red {
+    background-color: rgba(239, 68, 68, 0.1);
+    color: #dc2626;
+  }
+  
+  .badge-gray {
+    background-color: rgba(107, 114, 128, 0.1);
+    color: #4b5563;
+  }
+  
+  .badge-orange {
+    background-color: rgba(249, 115, 22, 0.1);
+    color: #ea580c;
+  }
+  
+  .badge-cyan {
+    background-color: rgba(6, 182, 212, 0.1);
+    color: #0891b2;
+  }
+  
+  .badge-pink {
+    background-color: rgba(236, 72, 153, 0.1);
+    color: #db2777;
+  }
+  
+  .badge-slate {
+    background-color: rgba(100, 116, 139, 0.1);
+    color: #64748b;
+  }
+  
+  .badge-default {
+    background-color: rgba(107, 114, 128, 0.1);
+    color: #4b5563;
+  }
+  
+  .phone-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon {
+    margin-right: 0.5rem;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .action-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    background-color: transparent;
+    color: var(--text-color);
+    transition: all 0.2s;
+  }
+  
+  .action-button:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    text-decoration: none;
+  }
+  
+  .empty-state {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+  }
+  
+  .empty-state p {
+    color: var(--text-muted);
+    margin-top: 0.5rem;
+  }
+  
+  /* Skeleton loading */
+  .skeleton {
+    background-color: #e5e7eb;
+    border-radius: 4px;
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+  
+  .skeleton-text {
+    height: 1rem;
+    width: 250px;
+  }
+  
+  .skeleton-text-sm {
+    height: 1rem;
+    width: 100px;
+  }
+  
+  .skeleton-badge {
+    height: 1.5rem;
+    width: 80px;
+    border-radius: 9999px;
+  }
+  
+  .skeleton-button {
+    height: 2rem;
+    width: 80px;
+  }
+  
+  @keyframes pulse {
+    0%,
+    100% {
+      opacity: 0.5;
+    }
+    50% {
+      opacity: 1;
+    }
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hide-mobile {
+      display: none;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .hide-tablet {
+      display: none;
+    }
+  }
+  
+  
