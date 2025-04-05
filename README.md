@@ -27,8 +27,8 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-- [ ] Multiple filters can be applied simultaneously
-- [ ] Filters use different input types
+- [x] Multiple filters can be applied simultaneously
+- [x] Filters use different input types
   - e.g., as a text input, a dropdown or radio selection, and/or a slider
 - [ ] The user can enter specific bounds for filter values
 
@@ -39,6 +39,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+![demo](https://github.com/user-attachments/assets/524879cf-45a1-429c-8002-4b7d0a73bdfe)
 
 
 <!-- Replace this with whatever GIF tool you used! -->
